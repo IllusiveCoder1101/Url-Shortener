@@ -11,17 +11,17 @@ function Nav() {
     </div>
     {
       <div className={(visibility)?"dropdown":"close-dropdown dropdown"}>
-        <ul>
+        <div>
           <p className='about2'>Features</p>
           <p className='about2'>Pricing</p>
           <p className='about2'>Resources</p>
           <hr />
-        </ul>
+        </div>
         
-        <ul>
+        <div>
           <p className='about2'>Login</p>
           <button className='button'>Sign Up</button>
-        </ul>
+        </div>
       </div>
 
   }
